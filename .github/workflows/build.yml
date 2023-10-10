@@ -12,9 +12,6 @@ jobs:
   build:
     name: Install and build
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: PelisTrack
     steps:
       - uses: actions/checkout@v2
       - name: List files and show package-lock.json
